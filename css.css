@@ -1,0 +1,36 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f0e6;
+  font-family: 'Georgia', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.carta {
+  background-color: #fffdf8;
+  padding: 40px;
+  max-width: 600px;
+  border: 1px solid #d8cfc1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  line-height: 1.6;
+}
+
+.carta h1 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.carta p {
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+}
